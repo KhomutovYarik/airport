@@ -45,19 +45,19 @@
             // lblText
             // 
             this.lblText.AutoSize = true;
-            this.lblText.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblText.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblText.Location = new System.Drawing.Point(110, 12);
             this.lblText.MaximumSize = new System.Drawing.Size(300, 0);
             this.lblText.MinimumSize = new System.Drawing.Size(300, 36);
             this.lblText.Name = "lblText";
-            this.lblText.Size = new System.Drawing.Size(300, 38);
+            this.lblText.Size = new System.Drawing.Size(300, 36);
             this.lblText.TabIndex = 2;
             this.lblText.Text = "Your Elements";
             this.lblText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // UserScroll
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
