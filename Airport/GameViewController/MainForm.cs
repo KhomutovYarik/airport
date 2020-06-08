@@ -594,20 +594,28 @@ namespace Airport.GameViewController
             game.Stop();
             Application.Exit();
         }
+        private void btnsinvert(object sender)
+        {
+            btnUpThree.Enabled = btnUpTwo.Enabled = btnUpOne.Enabled = true;
+            ((Button)sender).Enabled = false;
+        }
 
         private void BtnUpOne_Click(object sender, EventArgs e)
         {
             game.CurrentGameSpeed = GameSpeeds.x1;
+            btnsinvert(sender);
         }
 
         private void BtnUpTwo_Click(object sender, EventArgs e)
         {
             game.CurrentGameSpeed = GameSpeeds.x50;
+            btnsinvert(sender);
         }
 
         private void BtnUpThree_Click(object sender, EventArgs e)
         {
             game.CurrentGameSpeed = GameSpeeds.x100;
+            btnsinvert(sender);
         }
 
         private void ЗагрузитьИгруToolStripMenuItem_Click(object sender, EventArgs e)
@@ -628,6 +636,11 @@ namespace Airport.GameViewController
                 MessageBox.Show(ex.Message);
             }
             game.Start();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

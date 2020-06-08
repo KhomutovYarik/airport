@@ -45,6 +45,8 @@
             this.lblFuelValue = new System.Windows.Forms.Label();
             this.lblFuel = new System.Windows.Forms.Label();
             this.myFormStyle1 = new Airport.MyFormStyle(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picDate)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +114,7 @@
             this.lblDateValue.Location = new System.Drawing.Point(852, 6);
             this.lblDateValue.MinimumSize = new System.Drawing.Size(11, 11);
             this.lblDateValue.Name = "lblDateValue";
-            this.lblDateValue.Size = new System.Drawing.Size(45, 22);
+            this.lblDateValue.Size = new System.Drawing.Size(31, 15);
             this.lblDateValue.TabIndex = 7;
             this.lblDateValue.Text = "date";
             this.lblDateValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,12 +122,12 @@
             // lblBalanceValue
             // 
             this.lblBalanceValue.AutoSize = true;
-            this.lblBalanceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblBalanceValue.Location = new System.Drawing.Point(109, 54);
+            this.lblBalanceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblBalanceValue.Location = new System.Drawing.Point(902, 49);
             this.lblBalanceValue.MaximumSize = new System.Drawing.Size(170, 0);
             this.lblBalanceValue.MinimumSize = new System.Drawing.Size(170, 0);
             this.lblBalanceValue.Name = "lblBalanceValue";
-            this.lblBalanceValue.Size = new System.Drawing.Size(170, 40);
+            this.lblBalanceValue.Size = new System.Drawing.Size(170, 29);
             this.lblBalanceValue.TabIndex = 9;
             this.lblBalanceValue.Text = "Value";
             // 
@@ -138,7 +140,7 @@
             this.lblTimeValue.MaximumSize = new System.Drawing.Size(72, 0);
             this.lblTimeValue.MinimumSize = new System.Drawing.Size(72, 0);
             this.lblTimeValue.Name = "lblTimeValue";
-            this.lblTimeValue.Size = new System.Drawing.Size(72, 22);
+            this.lblTimeValue.Size = new System.Drawing.Size(72, 15);
             this.lblTimeValue.TabIndex = 11;
             this.lblTimeValue.Text = "Value";
             // 
@@ -149,44 +151,48 @@
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblTime.Location = new System.Drawing.Point(868, 21);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(76, 22);
+            this.lblTime.Size = new System.Drawing.Size(54, 15);
             this.lblTime.TabIndex = 10;
             this.lblTime.Text = "Время:";
             // 
             // btnUpThree
             // 
-            this.btnUpThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpThree.BackgroundImage")));
+            this.btnUpThree.BackColor = System.Drawing.SystemColors.Control;
             this.btnUpThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnUpThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpThree.Location = new System.Drawing.Point(1005, 68);
+            this.btnUpThree.Location = new System.Drawing.Point(369, 61);
             this.btnUpThree.Name = "btnUpThree";
             this.btnUpThree.Size = new System.Drawing.Size(57, 33);
             this.btnUpThree.TabIndex = 14;
-            this.btnUpThree.UseVisualStyleBackColor = true;
+            this.btnUpThree.Text = "х100";
+            this.btnUpThree.UseVisualStyleBackColor = false;
             this.btnUpThree.Click += new System.EventHandler(this.BtnUpThree_Click);
             // 
             // btnUpTwo
             // 
-            this.btnUpTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpTwo.BackgroundImage")));
+            this.btnUpTwo.BackColor = System.Drawing.SystemColors.Control;
             this.btnUpTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnUpTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpTwo.Location = new System.Drawing.Point(959, 68);
+            this.btnUpTwo.Location = new System.Drawing.Point(323, 61);
             this.btnUpTwo.Name = "btnUpTwo";
             this.btnUpTwo.Size = new System.Drawing.Size(40, 33);
             this.btnUpTwo.TabIndex = 13;
-            this.btnUpTwo.UseVisualStyleBackColor = true;
+            this.btnUpTwo.Text = "х50";
+            this.btnUpTwo.UseVisualStyleBackColor = false;
             this.btnUpTwo.Click += new System.EventHandler(this.BtnUpTwo_Click);
             // 
             // btnUpOne
             // 
-            this.btnUpOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUpOne.BackgroundImage")));
+            this.btnUpOne.BackColor = System.Drawing.SystemColors.Control;
             this.btnUpOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnUpOne.Enabled = false;
             this.btnUpOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpOne.Location = new System.Drawing.Point(915, 68);
+            this.btnUpOne.Location = new System.Drawing.Point(279, 61);
             this.btnUpOne.Name = "btnUpOne";
             this.btnUpOne.Size = new System.Drawing.Size(38, 33);
             this.btnUpOne.TabIndex = 12;
-            this.btnUpOne.UseVisualStyleBackColor = true;
+            this.btnUpOne.Text = "х1";
+            this.btnUpOne.UseVisualStyleBackColor = false;
             this.btnUpOne.Click += new System.EventHandler(this.BtnUpOne_Click);
             // 
             // picDate
@@ -204,24 +210,24 @@
             // lblFuelValue
             // 
             this.lblFuelValue.AutoSize = true;
-            this.lblFuelValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblFuelValue.Location = new System.Drawing.Point(405, 54);
+            this.lblFuelValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblFuelValue.Location = new System.Drawing.Point(903, 78);
             this.lblFuelValue.MaximumSize = new System.Drawing.Size(100, 0);
             this.lblFuelValue.MinimumSize = new System.Drawing.Size(100, 0);
             this.lblFuelValue.Name = "lblFuelValue";
-            this.lblFuelValue.Size = new System.Drawing.Size(100, 22);
+            this.lblFuelValue.Size = new System.Drawing.Size(100, 29);
             this.lblFuelValue.TabIndex = 16;
             this.lblFuelValue.Text = "Value";
             // 
             // lblFuel
             // 
             this.lblFuel.AutoSize = true;
-            this.lblFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblFuel.Location = new System.Drawing.Point(260, 54);
+            this.lblFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblFuel.Location = new System.Drawing.Point(745, 82);
             this.lblFuel.Name = "lblFuel";
-            this.lblFuel.Size = new System.Drawing.Size(172, 22);
+            this.lblFuel.Size = new System.Drawing.Size(138, 24);
             this.lblFuel.TabIndex = 15;
-            this.lblFuel.Text = "Цена на топливо:";
+            this.lblFuel.Text = "Цена топлива:";
             // 
             // myFormStyle1
             // 
@@ -244,12 +250,34 @@
             this.myFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.myFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(12, 64);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(261, 24);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "скорость течения времени:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(765, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(118, 24);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Ваш баланс:";
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1078, 494);
+            this.ClientSize = new System.Drawing.Size(1084, 511);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblFuelValue);
             this.Controls.Add(this.lblFuel);
             this.Controls.Add(this.btnUpThree);
@@ -274,6 +302,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Симулятор аэропорта";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picDate)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -296,5 +325,7 @@
         private System.Windows.Forms.Label lblFuel;
         public System.Windows.Forms.Label lblBalanceValue;
         private MyFormStyle myFormStyle1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
