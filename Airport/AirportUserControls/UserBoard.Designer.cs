@@ -28,21 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelAll = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panelAll
+            // 
+            this.panelAll.AutoScroll = true;
+            this.panelAll.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panelAll.Location = new System.Drawing.Point(0, 9);
+            this.panelAll.Name = "panelAll";
+            this.panelAll.Size = new System.Drawing.Size(1058, 365);
+            this.panelAll.TabIndex = 3;
             // 
             // UserBoard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.panelAll);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MaximumSize = new System.Drawing.Size(1060, 385);
+            this.MinimumSize = new System.Drawing.Size(1060, 385);
             this.Name = "UserBoard";
-            this.Size = new System.Drawing.Size(469, 278);
+            this.Size = new System.Drawing.Size(1058, 383);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panelAll;
     }
 }
