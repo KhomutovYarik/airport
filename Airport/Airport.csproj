@@ -80,12 +80,22 @@
     <Compile Include="AirportUserControls\UserScroll.Designer.cs">
       <DependentUpon>UserScroll.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\MyFormStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyFormStyle.Designer.cs" />
+    <Compile Include="Controls\MyStyle.cs" />
+    <Compile Include="Controls\ShadowedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CustomDialogs\ComboboxDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CustomDialogs\ComboboxDialog.Designer.cs">
       <DependentUpon>ComboboxDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Drawer.cs" />
+    <Compile Include="FlatColors.cs" />
     <Compile Include="GameLogicInterface\FlightProgressEventArgs.cs" />
     <Compile Include="GameLogicInterface\IGameLogicInteractable.cs" />
     <Compile Include="GameLogicInterface\Speeds.cs" />

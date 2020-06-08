@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.btnAirline = new System.Windows.Forms.Button();
             this.btnBoard = new System.Windows.Forms.Button();
@@ -43,6 +44,7 @@
             this.picDate = new System.Windows.Forms.PictureBox();
             this.lblFuelValue = new System.Windows.Forms.Label();
             this.lblFuel = new System.Windows.Forms.Label();
+            this.myFormStyle1 = new Airport.MyFormStyle(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picDate)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,10 +109,10 @@
             this.lblDateValue.AutoSize = true;
             this.lblDateValue.BackColor = System.Drawing.Color.White;
             this.lblDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblDateValue.Location = new System.Drawing.Point(851, 13);
+            this.lblDateValue.Location = new System.Drawing.Point(852, 6);
             this.lblDateValue.MinimumSize = new System.Drawing.Size(11, 11);
             this.lblDateValue.Name = "lblDateValue";
-            this.lblDateValue.Size = new System.Drawing.Size(31, 15);
+            this.lblDateValue.Size = new System.Drawing.Size(45, 22);
             this.lblDateValue.TabIndex = 7;
             this.lblDateValue.Text = "date";
             this.lblDateValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -123,7 +125,7 @@
             this.lblBalanceValue.MaximumSize = new System.Drawing.Size(170, 0);
             this.lblBalanceValue.MinimumSize = new System.Drawing.Size(170, 0);
             this.lblBalanceValue.Name = "lblBalanceValue";
-            this.lblBalanceValue.Size = new System.Drawing.Size(170, 29);
+            this.lblBalanceValue.Size = new System.Drawing.Size(170, 40);
             this.lblBalanceValue.TabIndex = 9;
             this.lblBalanceValue.Text = "Value";
             // 
@@ -132,11 +134,11 @@
             this.lblTimeValue.AutoSize = true;
             this.lblTimeValue.BackColor = System.Drawing.Color.White;
             this.lblTimeValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblTimeValue.Location = new System.Drawing.Point(914, 28);
+            this.lblTimeValue.Location = new System.Drawing.Point(931, 21);
             this.lblTimeValue.MaximumSize = new System.Drawing.Size(72, 0);
             this.lblTimeValue.MinimumSize = new System.Drawing.Size(72, 0);
             this.lblTimeValue.Name = "lblTimeValue";
-            this.lblTimeValue.Size = new System.Drawing.Size(72, 15);
+            this.lblTimeValue.Size = new System.Drawing.Size(72, 22);
             this.lblTimeValue.TabIndex = 11;
             this.lblTimeValue.Text = "Value";
             // 
@@ -145,9 +147,9 @@
             this.lblTime.AutoSize = true;
             this.lblTime.BackColor = System.Drawing.Color.White;
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblTime.Location = new System.Drawing.Point(851, 28);
+            this.lblTime.Location = new System.Drawing.Point(868, 21);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(54, 15);
+            this.lblTime.Size = new System.Drawing.Size(76, 22);
             this.lblTime.TabIndex = 10;
             this.lblTime.Text = "Время:";
             // 
@@ -207,7 +209,7 @@
             this.lblFuelValue.MaximumSize = new System.Drawing.Size(100, 0);
             this.lblFuelValue.MinimumSize = new System.Drawing.Size(100, 0);
             this.lblFuelValue.Name = "lblFuelValue";
-            this.lblFuelValue.Size = new System.Drawing.Size(100, 15);
+            this.lblFuelValue.Size = new System.Drawing.Size(100, 22);
             this.lblFuelValue.TabIndex = 16;
             this.lblFuelValue.Text = "Value";
             // 
@@ -217,16 +219,37 @@
             this.lblFuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblFuel.Location = new System.Drawing.Point(260, 54);
             this.lblFuel.Name = "lblFuel";
-            this.lblFuel.Size = new System.Drawing.Size(125, 15);
+            this.lblFuel.Size = new System.Drawing.Size(172, 22);
             this.lblFuel.TabIndex = 15;
             this.lblFuel.Text = "Цена на топливо:";
             // 
+            // myFormStyle1
+            // 
+            this.myFormStyle1.AllowDoubleClick = true;
+            this.myFormStyle1.AllowDropForMaximize = true;
+            this.myFormStyle1.AllowUserResize = false;
+            this.myFormStyle1.BackColor = System.Drawing.Color.White;
+            this.myFormStyle1.ContextMenuForm = null;
+            this.myFormStyle1.ControlBoxButtonsWidth = 20;
+            this.myFormStyle1.EnableControlBoxIconsLight = false;
+            this.myFormStyle1.EnableControlBoxMouseLight = false;
+            this.myFormStyle1.Form = this;
+            this.myFormStyle1.FormStyle = Airport.MyFormStyle.fStyle.SimpleDark;
+            this.myFormStyle1.HeaderColor = System.Drawing.Color.DimGray;
+            this.myFormStyle1.HeaderColorAdditional = System.Drawing.Color.White;
+            this.myFormStyle1.HeaderColorGradientEnable = false;
+            this.myFormStyle1.HeaderColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.myFormStyle1.HeaderHeight = 38;
+            this.myFormStyle1.HeaderImage = null;
+            this.myFormStyle1.HeaderTextColor = System.Drawing.Color.White;
+            this.myFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1084, 511);
+            this.ClientSize = new System.Drawing.Size(1078, 494);
             this.Controls.Add(this.lblFuelValue);
             this.Controls.Add(this.lblFuel);
             this.Controls.Add(this.btnUpThree);
@@ -244,6 +267,7 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1100, 550);
             this.MinimumSize = new System.Drawing.Size(1100, 550);
             this.Name = "MainForm";
@@ -271,5 +295,6 @@
         private System.Windows.Forms.Label lblFuelValue;
         private System.Windows.Forms.Label lblFuel;
         public System.Windows.Forms.Label lblBalanceValue;
+        private MyFormStyle myFormStyle1;
     }
 }
