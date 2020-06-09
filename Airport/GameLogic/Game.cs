@@ -121,7 +121,7 @@ namespace Airport.GameLogic
 
             contracts = new Dictionary<uint, Contract>();
             planesAndCities = new Dictionary<string, City> { { "0", CitiesInfo.cities["1"] } };
-            Plane firstPlane = new Plane("0", Plane.Models.AirbusA330_200, Plane.Owns.Bought);
+            Plane firstPlane = new Plane("0", Plane.Models.TY_134, Plane.Owns.Bought);
             MaxID = 0;
             planes = new Dictionary<string, Plane> { { firstPlane.ID, firstPlane } };
             planesProgress = new List<PlaneFlight>();

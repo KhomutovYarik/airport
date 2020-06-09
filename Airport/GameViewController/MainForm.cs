@@ -156,9 +156,9 @@ namespace Airport.GameViewController
             int planesStartX = 10;
             int planesStartY = 5;
             List<Plane.Models> models = new List<Plane.Models>();
-            models.Add(Plane.Models.AirbusA330_200);
-            models.Add(Plane.Models.Boeing747_8I);
-            models.Add(Plane.Models.McDonnelDouglasMD11F);
+            models.Add(Plane.Models.TY_134);
+            models.Add(Plane.Models.SuperJet123);
+            models.Add(Plane.Models.KukuruznikMX150);
 
             foreach (var model in models)
             {

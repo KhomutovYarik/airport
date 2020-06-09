@@ -10,9 +10,9 @@ namespace Airport.GameModel
         [Serializable]
         public enum Models
         {
-            AirbusA330_200,
-            Boeing747_8I,
-            McDonnelDouglasMD11F
+            TY_134,
+            SuperJet123,
+            KukuruznikMX150
         }
 
         //Идентификатор самолёта
@@ -79,17 +79,17 @@ namespace Airport.GameModel
                 Bitmap picture = null;
                 switch (Model)
                 {
-                    case Models.AirbusA330_200:
+                    case Models.TY_134:
                         {
                             picture = Resources.AirbusA330_200;
                         }
                         break;
-                    case Models.Boeing747_8I:
+                    case Models.SuperJet123:
                         {
                             picture = Resources.Boeing747_8i;
                         }
                         break;
-                    case Models.McDonnelDouglasMD11F:
+                    case Models.KukuruznikMX150:
                         {
                             picture = Resources.McDonnelDouglasMD11F;
                         }

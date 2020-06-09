@@ -40,17 +40,17 @@ namespace Airport.AirportUserControls
             Bitmap picture = null;
             switch (model)
             {
-                case Plane.Models.AirbusA330_200:
+                case Plane.Models.TY_134:
                     {
                         picture = Resources.AirbusA330_200;
                     }
                     break;
-                case Plane.Models.Boeing747_8I:
+                case Plane.Models.SuperJet123:
                     {
                         picture = Resources.Boeing747_8i;
                     }
                     break;
-                case Plane.Models.McDonnelDouglasMD11F:
+                case Plane.Models.KukuruznikMX150:
                     {
                         picture = Resources.McDonnelDouglasMD11F;
                     }
