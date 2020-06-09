@@ -186,10 +186,5 @@ namespace Airport.AirportUserControls
                     break;
             }
         }
-
-        private void cbType_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
