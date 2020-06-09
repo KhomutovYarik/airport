@@ -47,7 +47,7 @@
             // 
             this.lblMaxValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMaxValue.AutoSize = true;
-            this.lblMaxValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblMaxValue.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblMaxValue.Location = new System.Drawing.Point(136, 52);
             this.lblMaxValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMaxValue.MaximumSize = new System.Drawing.Size(70, 20);
@@ -62,7 +62,7 @@
             // 
             this.lblRangeValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblRangeValue.AutoSize = true;
-            this.lblRangeValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblRangeValue.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblRangeValue.Location = new System.Drawing.Point(117, 76);
             this.lblRangeValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRangeValue.MaximumSize = new System.Drawing.Size(60, 20);
@@ -77,12 +77,12 @@
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(13, 52);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.MinimumSize = new System.Drawing.Size(65, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
+            this.label2.Size = new System.Drawing.Size(108, 20);
             this.label2.TabIndex = 71;
             this.label2.Text = "Вместимость:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -91,12 +91,12 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(13, 76);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.MinimumSize = new System.Drawing.Size(65, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
+            this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 70;
             this.label1.Text = "Дальность:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -116,7 +116,7 @@
             // 
             this.lblPriceValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPriceValue.AutoSize = true;
-            this.lblPriceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblPriceValue.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPriceValue.Location = new System.Drawing.Point(391, 13);
             this.lblPriceValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPriceValue.MaximumSize = new System.Drawing.Size(80, 20);
@@ -131,7 +131,7 @@
             // 
             this.lblDayValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDayValue.AutoSize = true;
-            this.lblDayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblDayValue.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblDayValue.Location = new System.Drawing.Point(336, 33);
             this.lblDayValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDayValue.MaximumSize = new System.Drawing.Size(120, 20);
@@ -146,7 +146,7 @@
             // 
             this.lblType.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblType.AutoSize = true;
-            this.lblType.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblType.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblType.Location = new System.Drawing.Point(308, 71);
             this.lblType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblType.MaximumSize = new System.Drawing.Size(44, 20);
@@ -161,7 +161,7 @@
             // 
             this.lblPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPrice.AutoSize = true;
-            this.lblPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblPrice.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPrice.Location = new System.Drawing.Point(336, 13);
             this.lblPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrice.MaximumSize = new System.Drawing.Size(57, 20);
@@ -176,6 +176,7 @@
             // 
             this.btnBuy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuy.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnBuy.Location = new System.Drawing.Point(382, 107);
             this.btnBuy.Name = "btnBuy";
             this.btnBuy.Size = new System.Drawing.Size(72, 30);
@@ -188,7 +189,7 @@
             // 
             this.lblSpeedValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblSpeedValue.AutoSize = true;
-            this.lblSpeedValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblSpeedValue.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblSpeedValue.Location = new System.Drawing.Point(105, 115);
             this.lblSpeedValue.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSpeedValue.MaximumSize = new System.Drawing.Size(60, 20);
@@ -203,12 +204,12 @@
             // 
             this.lblSpeed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblSpeed.AutoSize = true;
-            this.lblSpeed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblSpeed.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblSpeed.Location = new System.Drawing.Point(13, 115);
             this.lblSpeed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSpeed.MinimumSize = new System.Drawing.Size(65, 20);
             this.lblSpeed.Name = "lblSpeed";
-            this.lblSpeed.Size = new System.Drawing.Size(73, 20);
+            this.lblSpeed.Size = new System.Drawing.Size(77, 20);
             this.lblSpeed.TabIndex = 62;
             this.lblSpeed.Text = "Скорость:";
             this.lblSpeed.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,7 +218,7 @@
             // 
             this.lblPlaneName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblPlaneName.AutoSize = true;
-            this.lblPlaneName.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblPlaneName.Font = new System.Drawing.Font("Comic Sans MS", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPlaneName.Location = new System.Drawing.Point(8, 11);
             this.lblPlaneName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlaneName.MaximumSize = new System.Drawing.Size(200, 32);
