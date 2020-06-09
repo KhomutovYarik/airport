@@ -11,7 +11,7 @@ namespace Airport.GameLogic
         {
             { "1", new City("1", "Пермь") },
             { "2", new City("2", "Москва") },
-            { "3", new City("3", "Санкт-Петербург") },
+            { "3", new City("3", "Казань") },
             { "4", new City("4", "Новосибирск") }
         };
 
