@@ -110,7 +110,7 @@
             this.cbType.Name = "cbType";
             this.cbType.Size = new System.Drawing.Size(104, 23);
             this.cbType.TabIndex = 69;
-            this.cbType.SelectedIndexChanged += new System.EventHandler(this.cbType_SelectedIndexChanged_1);
+            this.cbType.SelectedIndexChanged += new System.EventHandler(this.CbType_SelectedIndexChanged);
             // 
             // lblPriceValue
             // 
